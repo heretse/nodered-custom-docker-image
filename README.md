@@ -24,3 +24,7 @@ Makesure to specify your own secret, set the following property.
 
     ...
 ```
+# Build Custom Image
+```
+    docker build -t mynodered .
+```
