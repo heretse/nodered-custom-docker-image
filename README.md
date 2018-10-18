@@ -28,3 +28,7 @@ Makesure to specify your own secret, set the following property.
 ```
     docker build -t mynodered .
 ```
+# Run Custom Image
+```
+    docker run -it -p 1880:1880 mynodered        
+```
